@@ -316,6 +316,15 @@ BO_ 1163 RSA3: 8 FCM
  SG_ OVSPVALH : 27|4@0+ (1,-5) [0|0] "" XXX
  SG_ TSRSPU : 33|2@0+ (1,0) [0|0] "" XXX
 
+BO_ 767 SDSU: 8 XXX
+ SG_ FD_BUTTON : 7|1@0+ (1,0) [0|1] "" XXX
+
+BO_ 1880 DEBUG: 8 XXX
+ SG_ BLINDSPOTSIDE : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ BLINDSPOT : 38|1@0+ (1,0) [0|15] "" XXX
+ SG_ BLINDSPOTD1 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ BLINDSPOTD2 : 55|8@0+ (1,0) [0|255] "" XXX
+
 CM_ SG_ 36 ACCEL_Y "unit is tbd";
 CM_ SG_ 36 YAW_RATE "verify";
 CM_ SG_ 36 STEERING_TORQUE "does not seem the steer torque, tbd";
@@ -366,9 +375,9 @@ VAL_ 1042 RIGHT_LINE 3 "orange" 2 "faded" 1 "solid" 0 "none";
 VAL_ 1042 LEFT_LINE 3 "orange" 2 "faded" 1 "solid" 0 "none";
 VAL_ 1553 UNITS 1 "km" 2 "miles";
 VAL_ 1556 TURN_SIGNALS 3 "none" 2 "right" 1 "left";
-VAL_ 1161 TSGN1 1 "speed sign" 0 "none";
+VAL_ 1161 TSGN1 36 "speed sign mph" 1 "speed sign kph" 0 "none";
 VAL_ 1161 TSGN2 1 "speed sign" 0 "none";
-VAL_ 1161 SPLSGN2 15 "conditional blank" 4 "wet road" 5 "rain" 0 "none";
+VAL_ 1161 SPLSGN2 15 "conditional blank" 6 "snow" 5 "rain" 4 "wet road" 5 "rain" 3 "left" 2 "right" 1 "time" 0 "none";
 VAL_ 1162 TSGN3 0 "none" 1 "speed sign" 2 "0 unlimited" 7 "unlimited" 16 "highway" 17 "no highway" 18 "motorway" 19 "no motorway" 20 "in city" 21 "outside city" 22 "pedestrian area" 23 "no pedestrian area" 65 "no overtaking left" 66 "no overtaking right" 67 "overtaking allowed again" 81 "no right turn" 97 "stop" 105 "yield" 113 "stop" 114 "yield us" 129 "no entry" 138 "no entry tss2" 145 "do not enter";
 VAL_ 1162 SPLSGN3 15 "conditional blank" 4 "wet road" 5 "rain" 0 "none";
 
